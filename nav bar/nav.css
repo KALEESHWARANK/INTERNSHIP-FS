@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(164, 164, 169);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+nav li {
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);   
+}
+nav ul{
+    display: flex;
+}
+nav img{
+    padding:10px;
+}
+nav ul li a:hover{
+    background-color:blue;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: all 0.8 ease;
+    
+}
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(18, 18, 213);
+    height:auto;
+    width: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav h2{
+    color: aliceblue;
+}
+button[type=submit]{
+    border-radius: 10px;
+    border: none;
+    padding: 12px 20px;
+}
+nav h2{
+    margin-top: 10px;
+}
